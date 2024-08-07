@@ -28,7 +28,7 @@ public class Tv {
 		obj.brand = "Samsung";
 		obj.size = 32;
 		obj.price = 30000;
-		obj.print(obj.price,obj.size, obj.brand);
+		System.out.println("Price Before Discount : "+ obj.price);
 		obj.price = obj.calDiscount(obj.size,obj.price);
 		obj.print(obj.price,obj.size, obj.brand);
 
